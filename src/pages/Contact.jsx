@@ -72,7 +72,7 @@ const Contact = () => {
                   <p className="section__description mb-0">Itpark@gmail.com</p>
                 </div>
 
-                <h6 className="fw-bold mt-4">Follow Us</h6>
+                <h6 className="fw-bold mt-4">Подпишитесь</h6>
 
                 <div className=" d-flex align-items-center gap-4 mt-3">
                   {socialLinks.map((item, index) => (
