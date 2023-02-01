@@ -15,8 +15,8 @@ const quickLinks = [
     display: "Политика конфиденциальности",
   },
   {
-    path: "/blogs",
-    display: "Блоги",
+    path: "/countries",
+    display: "Страны",
   },
 
   {

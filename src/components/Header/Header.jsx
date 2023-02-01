@@ -14,8 +14,8 @@ const navLinks = [
     display: "О нас",
   },
   {
-    path: "/blogs",
-    display: "Блоги",
+    path: "/countries",
+    display: "Страны",
   },
   {
     path: "/contact",
