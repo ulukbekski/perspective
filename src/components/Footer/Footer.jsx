@@ -1,9 +1,12 @@
 import React from "react";
-
+import inst from '../../assets/all-images/free-icon-instagram-4923005.png'
+import what from '../../assets/all-images/whatsapp.png'
+import mail from '../../assets/all-images/mail.png'
+import face from '../../assets/all-images/facebook.png'
+import logos from '../../assets/all-images/logo.png'
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../../styles/footer.css";
-import car  from "../../assets/all-images/lion-logo-transparent-8.png";
 const quickLinks = [
   {
     path: "/about",
@@ -32,23 +35,19 @@ const Footer = () => {
     <footer className="footer">
       <Container>
         <Row>
-          <Col lg="4" md="4" sm="12">
+          <Col lg='4' md="4" sm="12">
             <div className="logo footer__logo">
               <h1>
                 <Link to="/home" className=" d-flex align-items-center gap-2">
-                <img className="hhh" src={car} alt="логотип" />
-                  <span>
-                    Perspective
-                  </span>
+                <img className="hhh" src={logos} alt="логотип" />
+                  
                 </Link>
               </h1>
             </div>
-            <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ipsa, blanditiis totam excepturi suscipit at veritatis molestias eligendi architecto cupiditate ad illum. Quaerat quo, vel repellendus itaque error aliquam. Praesentium!
-            </p>
+      
           </Col>
 
-          <Col lg="2" md="4" sm="6">
+          <Col lg="3" md="4" sm="6">
             <div className="mb-4">
               <h5 className="footer__link-title">Другие страницы</h5>
               <ListGroup>
@@ -63,7 +62,7 @@ const Footer = () => {
 
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title mb-4">Главный офис</h5>
+              <h5 className="footer__link-title mb-4">Наши Офисы:</h5>
               <p className="office__info">Ош, ул. Ленина 318</p>
               <p className="office__info">Phone: +996559007650</p>
 
@@ -73,19 +72,17 @@ const Footer = () => {
               </p>
             </div>
           </Col>
-
-          <Col lg="3" md="4" sm="12">
-            <div className="mb-4">
-              <h5 className="footer__link-title">Новости</h5>
-              <p className="section__description">Подписаться на наши ленту новостей</p>
-              <div className="newsletter">
-                <input type="email" placeholder="Email" />
-                <span>
-                  <i class="ri-send-plane-line"></i>
-                </span>
-              </div>
+          <Col lg="2" md="4" sm="6">
+            <div className="mb-4 " id="adapt">
+              <h5 className="footer__link-title">Соц. сети</h5>
+                  <p className="office__info flexos">instagram: <img src={inst} alt="" className="logo__icons" /> </p>
+                  <p className="office__info flexos">Faceboock: <img src={face} alt="" className="logo__icons" /> </p>
+                  <p className="office__info flexos">Whats App: <img src={what} alt="" className="logo__icons kot" /> </p>
+                  <p className="office__info flexos">Gmail: <img src={mail} alt="" className="logo__icons" /> </p>
             </div>
           </Col>
+
+          
 
           <Col lg="12">
             <div className="footer__bottom">
