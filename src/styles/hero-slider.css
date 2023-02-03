@@ -1,8 +1,7 @@
 .slider__item {
   max-width: 100%;
-  height: 650px;
+  height: 550px;
 }
-
 .slider__item-01 {
   background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
     url("../assets/all-images/slider-img/slider-1.jpg");
@@ -25,6 +24,41 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.text-light {
+  font-weight: 400;
+
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.text_light_p {
+  color: white;
+  text-align: center;
+  font-weight: 550;
+}
+.consalting {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 9%;
+  margin: 30px;
+}
+.for_registr {
+  padding: 0 1.5%;
+  height: 55px;
+  box-sizing: border-box;
+  padding-right: 20px;
+  border-radius: 10px;
+  border: none;
+}
+.button_for_registr {
+  color: #ffffff;
+  background-color: #ff5e00;
+  border: none;
+  height: 55px;
+  padding: 0 4%;
+  border-radius: 25px;
 }
 
 .hero__slider {

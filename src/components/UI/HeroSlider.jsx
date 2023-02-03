@@ -23,11 +23,23 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h4 className="text-light mb-3">{}</h4>
-            <h1 className="text-light mb-4">Отправка в европу</h1>
-
-            <button className="btn reserve__btn mt-4">
+            <h1 className="text-light mb-4">
+              Получи индивидуальную программу поступления в США и Канаду
+            </h1>
+            <h5 className="text_light_p">Основана 2009 году</h5>
+            <div className="consalting">
+              <input placeholder="ФИО" className="for_registr" type="text" />
+              <input
+                placeholder="Телефон"
+                className="for_registr"
+                type="text"
+              />
+              <input placeholder="Email" className="for_registr" type="text" />
+              <button className="button_for_registr">Консультация</button>
+            </div>
+            {/* <button className="btn reserve__btn mt-4">
               <Link to="/cars">Посмотреть</Link>
-            </button>
+            </button> */}
           </div>
         </Container>
       </div>
@@ -36,11 +48,23 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h4 className="text-light mb-3">{}</h4>
-            <h1 className="text-light mb-4">Отправка в европу</h1>
-
-            <button className="btn reserve__btn mt-4">
+            <h1 className="text-light mb-4">
+              Получи индивидуальную программу поступления в США и Канаду
+            </h1>
+            <h5 className="text_light_p">Основана 2009 году</h5>
+            <div className="consalting">
+              <input placeholder="ФИО" className="for_registr" type="text" />
+              <input
+                placeholder="Телефон"
+                className="for_registr"
+                type="text"
+              />
+              <input placeholder="Email" className="for_registr" type="text" />
+              <button className="button_for_registr">Консультация</button>
+            </div>
+            {/* <button className="btn reserve__btn mt-4">
               <Link to="/cars">Посмотреть</Link>
-            </button>
+            </button> */}
           </div>
         </Container>
       </div>
@@ -49,11 +73,23 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h4 className="text-light mb-3">{/*Text*/}</h4>
-            <h1 className="text-light mb-4">Отправка в европу</h1>
-
-            <button className="btn reserve__btn mt-4">
+            <h1 className="text-light mb-4">
+              Получи индивидуальную программу поступления в США и Канаду
+            </h1>
+            <h5 className="text_light_p">Основана 2009 году</h5>
+            <div className="consalting">
+              <input placeholder="ФИО" className="for_registr" type="text" />
+              <input
+                placeholder="Телефон"
+                className="for_registr"
+                type="text"
+              />
+              <input placeholder="Email" className="for_registr" type="text" />
+              <button className="button_for_registr">Консультация</button>
+            </div>
+            {/* <button className="btn reserve__btn mt-4">
               <Link to="/cars">Посмотреть</Link>
-            </button>
+            </button> */}
           </div>
         </Container>
       </div>
