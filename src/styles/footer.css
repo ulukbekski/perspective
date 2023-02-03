@@ -1,13 +1,10 @@
 .footer {
-  background: black;
+  background: rgba(0, 0, 0, 0.698);
   padding-top: 50px;
   padding-bottom: 15px;
 }
 
-.footer__logo i {
-  color: #fff;
-  font-weight: 400;
-}
+
 
 .footer__logo span {
   color: #fff;
@@ -18,6 +15,7 @@
   color: rgba(255, 255, 255, 0.715);
   margin-top: 15px;
   line-height: 30px;
+  text-align: center;
 }
 
 .quick__link {
@@ -42,7 +40,7 @@
 
 .office__info {
   color: rgba(255, 255, 255, 0.715);
-  font-weight: 300;
+  font-weight: 300; 
 }
 
 .newsletter {
@@ -67,7 +65,12 @@
 }
 
 .footer__bottom {
-  border-top: 1px solid #7c8a972f;
+  border-top: 1.5px solid #7c8a972f;
+}
+@media only screen  and (max-width:1201px){
+    .logo__icons{
+      margin-left: 5%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -78,21 +81,43 @@
   .quick__link,
   .office__info {
     font-size: 0.8rem;
-    line-height: 1.5rem;
+    line-height: 1rem;
   }
 
   .footer__link-title {
     font-size: 1rem;
     margin-top: 15px;
+    text-align: center;
   }
 
   .footer__bottom p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    white-space: nowrap;
   }
-
+  .logo__icons{
+    width: 25px;
+  }
+  
   
 }
+.kot{
+    height: 25px;
+  }
 .hhh{
-  width: 300px;
-  height: 150px;  
+
+  width: 100%;
+  height: 50%;
+  }
+  .logo__icons{
+    width: 25px;
+    
+  }
+  .logo__icons:hover{
+    filter: saturate(.6);
+  }
+
+  .flexos{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
   }

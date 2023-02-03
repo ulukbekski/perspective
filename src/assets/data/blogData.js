@@ -3,6 +3,8 @@ import img01 from "../all-images/blog-img/blog-1.jpg";
 import img02 from "../all-images/blog-img/blog-2.jpg";
 import img03 from "../all-images/blog-img/blog-3.jpg";
 
+
+
 const blogData = [
   {
     id: 1,
@@ -10,14 +12,14 @@ const blogData = [
     author: "Улукбек Суранов",
     date: " 2023",
     
-    imgUrl: img01,
+    imgUrl: img03,
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.  Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
     quote:
       "Voluptua dolore takimata dolor sadipscing nonumy consetetur et. Stet sed dolores dolores dolores dolores eos.",
   },
   {
-    id: 1,
+    id: 2,
     title: "Почему Америка лучше?",
     author: "Улукбек Суранов",
     date: " 2023",
@@ -29,7 +31,7 @@ const blogData = [
       "Voluptua dolore takimata dolor sadipscing nonumy consetetur et. Stet sed dolores dolores dolores dolores eos.",
   },
   {
-    id: 1,
+    id: 3,
     title: "Почему Америка лучше?",
     author: "Улукбек Суранов",
     date: " 2023",
