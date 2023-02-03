@@ -1,6 +1,5 @@
-import React, { useRef } from "react";
-import sperma from '../../assets/all-images/fa.png'
-import { Container, Row, Col } from "reactstrap";
+import React from "react";
+import { Container } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
 import logo from '../../assets/all-images/logo.png'
@@ -24,7 +23,7 @@ const navLinks = [
 ];
 
 const Header = () => {
-  const menuRef = useRef(null);
+  const menuRef = React.useRef(null);
 
   const toggleMenu = () => menuRef.current.classList.toggle("menu__active");
 
@@ -42,7 +41,7 @@ const Header = () => {
          
           <div className="navigation__wrapper d-flex align-items-center justify-content-between">
             <span className="mobile__menu">
-              <i class="ri-menu-line" onClick={toggleMenu}></i>
+              <i className="ri-menu-line" onClick={toggleMenu}></i>
             </span>
 
             <div className="navigation" ref={menuRef} onClick={toggleMenu}>
@@ -66,7 +65,7 @@ const Header = () => {
             </div>
             <button className="header__btn btn ">
                 <Link to="/contact">
-                  <i class="ri-phone-line"></i> Позвоните нам
+                  <i className="ri-phone-line"></i> Позвоните нам
                 </Link>
               </button>
             {/* <div className="nav__right">
