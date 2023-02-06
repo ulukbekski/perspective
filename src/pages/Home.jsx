@@ -8,17 +8,21 @@ import { Container, Row, Col } from "reactstrap";
 import AboutSection from "../components/UI/AboutSection";
 import ServicesList from "../components/UI/ServicesList";
 
-
 import Testimonial from "../components/UI/Testimonial";
-
 import BlogList from "../components/UI/BlogList";
+import "../styles/hero-slider.css";
 
 const Home = () => {
   return (
     <Helmet title="Главная">
-     
       <section className="p-0 hero__slider-section">
         <HeroSlider />
+        <div className="consalting">
+          <input placeholder="ФИО" className="for_registr" type="text" />
+          <input placeholder="Телефон" className="for_registr" type="text" />
+          <input placeholder="Email" className="for_registr" type="text" />
+          <button className="button_for_registr">Консультация</button>
+        </div>
 
         {/* <div className="hero__form">
           <Container>
@@ -36,9 +40,9 @@ const Home = () => {
           </Container>
         </div> */}
       </section>
-   
+
       <AboutSection />
-   
+
       <section>
         <Container>
           <Row>
@@ -51,7 +55,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-   
+
       {/* <section>
         <Container>
           <Row>
@@ -66,8 +70,6 @@ const Home = () => {
           </Row>
         </Container>
       </section> */}
-  
-
 
       <section>
         <Container>
@@ -82,7 +84,6 @@ const Home = () => {
         </Container>
       </section>
 
- 
       <section>
         <Container>
           <Row>
