@@ -25,6 +25,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.hero__slider-section {
+  position: relative;
+}
 
 .text-light {
   font-weight: 400;
@@ -40,13 +43,20 @@
 }
 .consalting {
   display: flex;
-  justify-content: space-around;
-  padding: 0 9%;
-  margin: 30px;
+  padding: 0 40px;
+  flex-shrink: 1;
+  /* margin: auto; */
+  left: 0;
+  right: 0;
+  max-width: 900px;
+  gap: 10px;
+  margin: auto;
+  top: 70%;
+  position: absolute;
+  z-index: 100;
 }
 .for_registr {
-  padding: 0 1.5%;
-  height: 55px;
+  padding: 0.7em;
   box-sizing: border-box;
   padding-right: 20px;
   border-radius: 10px;
@@ -56,13 +66,13 @@
   color: #ffffff;
   background-color: #ff5e00;
   border: none;
-  height: 55px;
-  padding: 0 4%;
+  padding: 1em;
   border-radius: 25px;
 }
 
 .hero__slider {
   overflow: hidden;
+  /* position: relative; */
 }
 
 .slider__content {
@@ -101,7 +111,10 @@
   .slider__content {
     margin-top: -50px;
   }
-
+  .consalting {
+    flex-direction: column;
+    top: 50%;
+  }
   .slider__content h1 {
     font-size: 2rem;
   }
@@ -114,5 +127,11 @@
 
   .slider__content h1 {
     font-size: 1.5rem;
+  }
+  .for_registr {
+    font-size: 1em;
+  }
+  .button_for_registr {
+    font-size: 0.7em;
   }
 }

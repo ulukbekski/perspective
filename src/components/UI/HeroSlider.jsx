@@ -4,8 +4,6 @@ import Slider from "react-slick";
 import { Container } from "reactstrap";
 import { Link } from "react-router-dom";
 
-import "../../styles/hero-slider.css";
-
 const HeroSlider = () => {
   const settings = {
     fade: true,
@@ -27,16 +25,7 @@ const HeroSlider = () => {
               Получи индивидуальную программу поступления в США и Канаду
             </h1>
             <h5 className="text_light_p">Основана 2009 году</h5>
-            <div className="consalting">
-              <input placeholder="ФИО" className="for_registr" type="text" />
-              <input
-                placeholder="Телефон"
-                className="for_registr"
-                type="text"
-              />
-              <input placeholder="Email" className="for_registr" type="text" />
-              <button className="button_for_registr">Консультация</button>
-            </div>
+
             {/* <button className="btn reserve__btn mt-4">
               <Link to="/cars">Посмотреть</Link>
             </button> */}
@@ -52,16 +41,7 @@ const HeroSlider = () => {
               Получи индивидуальную программу поступления в США и Канаду
             </h1>
             <h5 className="text_light_p">Основана 2009 году</h5>
-            <div className="consalting">
-              <input placeholder="ФИО" className="for_registr" type="text" />
-              <input
-                placeholder="Телефон"
-                className="for_registr"
-                type="text"
-              />
-              <input placeholder="Email" className="for_registr" type="text" />
-              <button className="button_for_registr">Консультация</button>
-            </div>
+
             {/* <button className="btn reserve__btn mt-4">
               <Link to="/cars">Посмотреть</Link>
             </button> */}
@@ -77,21 +57,18 @@ const HeroSlider = () => {
               Получи индивидуальную программу поступления в США и Канаду
             </h1>
             <h5 className="text_light_p">Основана 2009 году</h5>
-            <div className="consalting">
-              <input placeholder="ФИО" className="for_registr" type="text" />
-              <input
-                placeholder="Телефон"
-                className="for_registr"
-                type="text"
-              />
-              <input placeholder="Email" className="for_registr" type="text" />
-              <button className="button_for_registr">Консультация</button>
-            </div>
+
             {/* <button className="btn reserve__btn mt-4">
               <Link to="/cars">Посмотреть</Link>
             </button> */}
           </div>
         </Container>
+        {/* <div className="consalting">
+          <input placeholder="ФИО" className="for_registr" type="type" />
+          <input placeholder="Телефон" className="for_registr" type="text" />
+          <input placeholder="Email" className="for_registr" type="text" />
+          <button className="button_for_registr">Консультация</button>
+        </div> */}
       </div>
     </Slider>
   );
