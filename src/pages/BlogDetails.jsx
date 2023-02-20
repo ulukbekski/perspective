@@ -49,7 +49,7 @@ const BlogDetails = () => {
                 <p className="section__description">{blog.description}</p>
               </div>
 
-              <div className="comment__list mt-5">
+              {/* <div className="comment__list mt-5">
                 <h4 className="mb-5">3 Comments</h4>
 
                 <div className="single__comment d-flex gap-3">
@@ -94,19 +94,19 @@ const BlogDetails = () => {
                     </button>
                   </Form>
                 </div>
-              </div>
+              </div> */}
             </Col>
 
             <Col lg="4" md="4">
               <div className="recent__post mb-4">
-                <h5 className=" fw-bold">Recent Posts</h5>
+                <h5 className=" fw-bold">Последние посты</h5>
               </div>
               {blogData.map((item) => (
                 <div className="recent__blog-post mb-4" key={item.id}>
                   <div className="recent__blog-item d-flex gap-3">
                     <img src={item.imgUrl} alt="" className="w-25 rounded-2" />
                     <h6>
-                      <Link to={`/blogs/${item.title}`}>{blog.title}</Link>
+                      <Link to={`/countries/${item.title}`}>{blog.title}</Link>
                     </h6>
                   </div>
                 </div>

@@ -8,7 +8,7 @@ import img03 from "../all-images/blog-img/blog-3.jpg";
 const blogData = [
   {
     id: 1,
-    title: "Почему Америка лучше",
+    title: "Почему Америка лучше1",
     author: "Улукбек Суранов",
     date: " 2023",
     
@@ -20,7 +20,7 @@ const blogData = [
   },
   {
     id: 2,
-    title: "Почему Америка лучше?",
+    title: "Почему Америка лучше2",
     author: "Улукбек Суранов",
     date: " 2023",
     
@@ -32,7 +32,7 @@ const blogData = [
   },
   {
     id: 3,
-    title: "Почему Америка лучше?",
+    title: "Почему",
     author: "Улукбек Суранов",
     date: " 2023",
     
