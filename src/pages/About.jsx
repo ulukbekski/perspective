@@ -8,6 +8,12 @@ import iimg from "../assets/all-images/abroad.jpg";
 import OurMembers from "../components/UI/OurMembers";
 import "../styles/about.css";
 
+
+
+
+
+
+
 const About = () => {
   return (
     <Helmet title="О нас">
