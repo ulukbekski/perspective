@@ -3,6 +3,7 @@ import React, { Fragment } from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import Routers from "../../routers/Routers";
+import Whatsapp from "../UI/Whatsapp";
 
 const Layout = () => {
   return (
@@ -11,6 +12,7 @@ const Layout = () => {
       <div>
         <Routers />
       </div>
+      <Whatsapp/>
       <Footer />
     </Fragment>
   );

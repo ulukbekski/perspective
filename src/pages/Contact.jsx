@@ -6,6 +6,7 @@ import CommonSection from "../components/UI/CommonSection";
 import "../styles/contact.css";
 
 
+
 const socialLinks = [
   {
     url: "#",
@@ -29,6 +30,7 @@ const Contact = () => {
   return (
     <Helmet title="Контакты">
       <CommonSection title="Контакты" />
+     
       <section>
         <Container>
           <Row>

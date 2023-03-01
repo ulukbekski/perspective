@@ -68,10 +68,8 @@
 .main__navbar {
   padding: 10px 0px;
   background: #332e2e7a;
-  background-image: url(../assets/all-images/fa.png);
-  background-size: 70%;
-  background-position: 150% 80%;
-  background-repeat: no-repeat;
+ 
+
 }
 
 .mobile__menu i {
@@ -94,19 +92,23 @@
 
 .nav__item {
   color: #fff;
+  font-weight: 700;
   text-decoration: none;
   transition: 0.7s;
   padding: 0px 2%;
-  border-right: #efde1c solid 1px;
   white-space: nowrap;
+  position: relative;
+}
+.nav__item::after{
+  content: "\2605";
+  position: absolute;
+  right: -5px;
+  
 }
 
 .nav__item:hover {
-  color: #efde1c; 
-  letter-spacing: 1.2px;
-  border-right: #fff solid 1px;
+  color: rgb(76, 173, 243);
 
- 
 }
 
 .search__box {
@@ -135,7 +137,7 @@
 }
 
 .nav__active {
-  color: #efde1c;
+  color: blue;
 }
 
 
