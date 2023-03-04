@@ -13,32 +13,40 @@ import BlogList from "../components/UI/BlogList";
 import "../styles/hero-slider.css";
 
 const Home = () => {
-  const [name, setName] = React.useState("")
-  const [city, setCity] = React.useState("")
-  const [tel, setTel] = React.useState("")
-  console.log(name)
+  const [name, setName] = React.useState("");
+  const [city, setCity] = React.useState("");
+  const [tel, setTel] = React.useState("");
+  console.log(name);
   return (
     <Helmet title="Главная">
       <section className="p-0 hero__slider-section">
         <HeroSlider />
-<<<<<<< HEAD
-
-        <div className="consalting">
-          <input placeholder="ФИО" className="for_registr" type="text" />
-          <input placeholder="Телефон" className="for_registr" type="text" />
-          <input placeholder="Email" className="for_registr" type="text" />
-          <button className="button_for_registr">Консультация</button>
-        </div>
-=======
-        <form className="consalting" >
-          <input placeholder="ФИО" onChange={()=>setName((event)=> event.target.value)} className="for_registr" type="text" name="name" />
-          <input placeholder="Телефон" className="for_registr" type="tel"  id="phone" name="phone" pattern="996[\d]{9}" />
-          <input placeholder="Город" className="for_registr" type="text" name="city" />
-          <button className="button_for_registr" type="submit">Консультация</button>
+        <form className="consalting">
+          <input
+            placeholder="ФИО"
+            onChange={() => setName((event) => event.target.value)}
+            className="for_registr"
+            type="text"
+            name="name"
+          />
+          <input
+            placeholder="Телефон"
+            className="for_registr"
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="996[\d]{9}"
+          />
+          <input
+            placeholder="Город"
+            className="for_registr"
+            type="text"
+            name="city"
+          />
+          <button className="button_for_registr" type="submit">
+            Консультация
+          </button>
         </form>
->>>>>>> ec54a6c8a8be5e0851162797adb21bc71a486e4a
-
-        
       </section>
 
       <AboutSection />

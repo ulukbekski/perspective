@@ -3,7 +3,6 @@ import { Col } from "reactstrap";
 import "../../styles/blog-item.css";
 import { Link } from "react-router-dom";
 import blogData from "../../assets/data/blogData";
-<<<<<<< HEAD
 
 const BlogList = () => {
   // const [blogData, setBlogData] = React.useState([]);
@@ -15,42 +14,29 @@ const BlogList = () => {
   //       console.log(json);
   //     });
   // }, []);
-=======
-
-
-
-
-const BlogList = () => {
-  // const [blogData , setBlogData] = React.useState([])
-  // React.useEffect(()=>{
-  // fetch('https://63dce887df83d549ce9626c7.mockapi.io/Countries')
-  // .then((response)=>response.json())
-  // .then((json) => {setBlogData(json); console.log(json)})
-  // },[])
->>>>>>> ec54a6c8a8be5e0851162797adb21bc71a486e4a
   return (
     <>
-    <div className="center">
-      {blogData.map((item) => <BlogItem item={item} key={item.id} />)}
+      <div className="center">
+        {blogData.map((item) => (
+          <BlogItem item={item} key={item.id} />
+        ))}
       </div>
     </>
-  )
+  );
 };
 
 const BlogItem = ({ item }) => {
   const { imgUrl, title, author, date, description, time } = item;
 
   return (
-    <Col lg="4" md="6" sm="6"  className="mb-5">
+    <Col lg="4" md="6" sm="6" className="mb-5">
       <div className="blog__item">
         <img src={imgUrl} alt="" className="w-100" />
         <div className="blog__info p-3">
           <Link to={`/countries/${title}`} className="blog__title">
             {title}
           </Link>
-          <p className="section__description mt-3">
-            {description}
-          </p>
+          <p className="section__description mt-3">{description}</p>
 
           <Link to={`/countries/${title}`} className="read__more">
             Узнать больше
