@@ -4,7 +4,7 @@ import CommonSection from "../components/UI/CommonSection";
 import Helmet from "../components/Helmet/Helmet";
 import AboutSection from "../components/UI/AboutSection";
 import { Container, Row, Col } from "reactstrap";
-import iimg from "../assets/all-images/abroad.jpg";
+import iimg from "../assets/all-images/USAImages/IMG_6300.jpeg";
 import OurMembers from "../components/UI/OurMembers";
 import "../styles/about.css";
 
@@ -25,7 +25,7 @@ const About = () => {
 
             <Col lg="6" md="6" sm="12">
               <div className="about__page-content">
-                <h2 className="section__title">
+                <h2 className="section__titlen">
                   Обучение в США
                 </h2>
 
@@ -43,22 +43,13 @@ const About = () => {
                   tempore rem minima adipisci magni dolorum ipsam.
                 </p>
 
-                <div className=" d-flex align-items-center gap-3 mt-4">
-                  <span className="fs-4">
-                    <i class="ri-phone-line"></i>
-                  </span>
-
-                  <div>
-                    <h6 className="section__subtitle">Нужна помощь?</h6>
-                    <h4>+996559007650</h4>
-                  </div>
-                </div>
+               
               </div>
             </Col>
           </Row>
         </Container>
       </section>
-
+    
       <section>
         <Container>
           <Row>

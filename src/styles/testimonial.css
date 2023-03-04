@@ -1,3 +1,23 @@
+.testimonial{
+  background-color: white ;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(189, 189, 189, 0.8));
+  border-radius: 15px;
+  display: flex;
+ 
+  
+}
+.slick-slide{
+  justify-content: center;
+}
+.slick-slide img{
+  height: 150px !important;
+  width: 150px !important;
+}
+.slick-dots button::before{
+  opacity: .75;
+  font-size: 10px !important;
+  color: white !important;
+}
 @media only screen and (max-width: 768px) {
   .testimonial p {
     font-size: 0.8rem;

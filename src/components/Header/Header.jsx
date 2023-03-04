@@ -20,6 +20,10 @@ const navLinks = [
     path: "/contact",
     display: "Связаться",
   },
+  {
+    path: "/gallery",
+    display: "Галерея",
+  },
 ];
 
 const Header = () => {
@@ -63,11 +67,6 @@ const Header = () => {
                 ))}
               </div>
             </div>
-            <button className="header__btn btn ">
-                <Link to="/contact">
-                  <i className="ri-phone-line"></i> Позвоните нам
-                </Link>
-              </button>
             {/* <div className="nav__right">
               <div className="search__box">
                 <input type="text" placeholder="Search" />

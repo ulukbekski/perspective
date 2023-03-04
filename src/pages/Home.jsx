@@ -13,10 +13,15 @@ import BlogList from "../components/UI/BlogList";
 import "../styles/hero-slider.css";
 
 const Home = () => {
+  const [name, setName] = React.useState("")
+  const [city, setCity] = React.useState("")
+  const [tel, setTel] = React.useState("")
+  console.log(name)
   return (
     <Helmet title="Главная">
       <section className="p-0 hero__slider-section">
         <HeroSlider />
+<<<<<<< HEAD
 
         <div className="consalting">
           <input placeholder="ФИО" className="for_registr" type="text" />
@@ -24,22 +29,16 @@ const Home = () => {
           <input placeholder="Email" className="for_registr" type="text" />
           <button className="button_for_registr">Консультация</button>
         </div>
+=======
+        <form className="consalting" >
+          <input placeholder="ФИО" onChange={()=>setName((event)=> event.target.value)} className="for_registr" type="text" name="name" />
+          <input placeholder="Телефон" className="for_registr" type="tel"  id="phone" name="phone" pattern="996[\d]{9}" />
+          <input placeholder="Город" className="for_registr" type="text" name="city" />
+          <button className="button_for_registr" type="submit">Консультация</button>
+        </form>
+>>>>>>> ec54a6c8a8be5e0851162797adb21bc71a486e4a
 
-        {/* <div className="hero__form">
-          <Container>
-            <Row className="form__row">
-              <Col lg="4" md="4">
-                <div className="find__cars-left">
-                  <h2>Find your best car here</h2>
-                </div>
-              </Col>
-
-              <Col lg="8" md="8" sm="12">
-                <FindCarForm />
-              </Col>
-            </Row>
-          </Container>
-        </div> */}
+        
       </section>
 
       <AboutSection />
@@ -56,21 +55,6 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-
-      {/* <section>
-        <Container>
-          <Row>
-            <Col lg="12" className="text-center mb-5">
-              <h6 className="section__subtitle">Come with</h6>
-              <h2 className="section__title">Hot Offers</h2>
-            </Col>
-
-            {[1,2,3,4,5,6,7].slice(0, 6).map((item) => (
-              <CarItem item={item} key={item.id} />
-            ))}
-          </Row>
-        </Container>
-      </section> */}
 
       <section>
         <Container>

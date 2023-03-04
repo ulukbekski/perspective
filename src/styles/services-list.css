@@ -2,7 +2,13 @@
   font-size: 2.5rem;
   color: #f9a826;
 }
-
+.service__item{
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white ;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(189, 189, 189, 0.723))
+  
+}
 .service__item h6 {
   font-size: 1.2rem;
   font-weight: 600;
