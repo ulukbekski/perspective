@@ -1,10 +1,28 @@
 .logos {
   width: 100px;
-  border-right: #efde1c solid 1px;
   padding-right: 14px;
   transition: 1s;
   position: relative;
+  border-right: #f79910 solid 1px;
+
   overflow: auto;
+  animation: ease 1.7s logos;
+}
+@keyframes logos {
+  0% {
+    transform: translateX(-300%);
+    border: none;
+  }
+  72% {
+    transform: translateX(0);
+  }
+
+  97% {
+    transform: rotate(0deg);
+  }
+  100% {
+    border-right: #f79910 solid 1px;
+  }
 }
 .nav__item::after {
   content: "";
@@ -14,7 +32,7 @@
   height: 13.65px;
   position: absolute;
   z-index: 1011;
-  background-color: rgba(212, 209, 209, 0.685);
+  background-color: rgba(163, 162, 162, 0.554);
   transition: all 1s;
 }
 .nav__item:hover::after {
@@ -115,6 +133,7 @@
 
 .nav__item:hover {
   color: #f79910;
+  letter-spacing: 2px;
 }
 
 .search__box {

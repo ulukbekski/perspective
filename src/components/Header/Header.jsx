@@ -2,10 +2,8 @@ import React from "react";
 import { Container } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
-import logo from '../../assets/all-images/p__logo-oranges.png'
+import logo from "../../assets/all-images/p__logo-oranges.png";
 const navLinks = [
-
-  
   {
     path: "/countries",
     display: "Программы",
@@ -31,41 +29,41 @@ const Header = () => {
 
   return (
     <header className="header">
-
-     
-
-  
-     {/* <div></div> */}
+      {/* <div></div> */}
 
       <div className="header__parent">
-      <div className="main__navbar">
-        <Container>
-         
-          <div className="navigation__wrapper d-flex align-items-center justify-content-between">
-            <span className="mobile__menu">
-              <i className="ri-menu-line" onClick={toggleMenu}></i>
-            </span>
+        <div className="main__navbar">
+          <Container>
+            <div className="navigation__wrapper d-flex align-items-center justify-content-between">
+              <span className="mobile__menu">
+                <i className="ri-menu-line" onClick={toggleMenu}></i>
+              </span>
 
-            <div className="navigation" ref={menuRef} onClick={toggleMenu}>
-              <div className="menu">
-              <Link to='/home'>
-              <img className="logos" src={logo} alt="Картинка не загружено" />
-              </Link>
-                {navLinks.map((item, index) => (
-                  <NavLink
-                  
-                    to={item.path}
-                    className={(navClass) =>
-                      navClass.isActive ? "nav__active nav__item" : "nav__item"
-                    }
-                    key={index}
-                  >
-                    {item.display}
-                  </NavLink>
-                ))}
+              <div className="navigation" ref={menuRef} onClick={toggleMenu}>
+                <div className="menu">
+                  <Link to="/home">
+                    <img
+                      className="logos"
+                      src={logo}
+                      alt="Картинка не загружено"
+                    />
+                  </Link>
+                  {navLinks.map((item, index) => (
+                    <NavLink
+                      to={item.path}
+                      className={(navClass) =>
+                        navClass.isActive
+                          ? "nav__active nav__item"
+                          : "nav__item"
+                      }
+                      key={index}
+                    >
+                      {item.display}
+                    </NavLink>
+                  ))}
+                </div>
               </div>
-            </div>
-            {/* <div className="nav__right">
+              {/* <div className="nav__right">
               <div className="search__box">
                 <input type="text" placeholder="Search" />
                 <span>
@@ -73,9 +71,9 @@ const Header = () => {
                 </span>
               </div>
             </div> */}
-          </div>
-        </Container>
-      </div>
+            </div>
+          </Container>
+        </div>
       </div>
     </header>
   );
