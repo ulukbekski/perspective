@@ -40,7 +40,6 @@ blockquote {
 
 .recent__blog-item h6 a {
   text-decoration: none;
-  color: #000d6b;
   font-weight: 600;
 }
 
@@ -78,4 +77,28 @@ blockquote {
     font-size: 0.8rem;
     line-height: 1.4rem;
   }
+}
+.star{
+  color: #fff;
+  list-style: none;
+  font-size: 16px !important;
+  
+}
+.start{
+  color: #fff;
+  list-style: none;
+  font-size: 16px !important;
+  
+}
+.star::before{
+  content: "\2605";
+  padding-right: 50px;
+  
+}
+.blog__details{
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 5px 50px rgba(0, 0, 0, 0.9);
+  border-radius: 15px ;
+  overflow: hidden;
+  padding: 20px;
 }

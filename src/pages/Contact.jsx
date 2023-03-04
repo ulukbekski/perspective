@@ -38,18 +38,13 @@ const Contact = () => {
               <h6 className="fw-bold mb-4">Будьте на связи</h6>
               <Form>
                 <FormGroup className="contact__form">
-                  <Input placeholder="Your Name" type="text" />
+                  <Input placeholder="Ваше имя" type="text"  name="name"/>
                 </FormGroup>
                 <FormGroup className="contact__form">
-                  <Input placeholder="Email" type="email" />
+                  <Input placeholder="Телефон" className="for_registr" type="tel"  id="phone" name="phone" pattern="996[\d]{9}" />
                 </FormGroup>
                 <FormGroup className="contact__form">
-                  <textarea
-                    rows="5"
-                    cols={97}
-                    placeholder="Message"
-                    className="textarea"
-                  ></textarea>
+                <Input placeholder="Город" className="for_registr" type="text" name="city" />
                 </FormGroup>
 
                 <button className=" contact__btn" type="submit">

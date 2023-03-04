@@ -1,13 +1,13 @@
 const serviceData = [
   {
     id: 1,
-    title: "Более 3000 отправок за границу",
+    title: "3645 отправок за границу",
     icon: "ri-briefcase-5-line",
     desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   } ,
   {
     id: 2,
-    title: "Более 5 лет опыта на рынке",
+    title: "Более 10 лет опыта",
     icon: "ri-global-line",
     desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },{
@@ -22,14 +22,14 @@ const serviceData = [
     desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },{
     id: 5,
-    title: "Возможность остаться после обучения",
+    title: "Недорогое обучение",
     icon: "ri-building-4-line",
     desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },
   {
     id: 6,
-    title: "Удобные и безопасные вакансии ",
-    icon: "ri-map-pin-2-line",
+    title: "Удобные вакансии",
+    icon: "ri-shield-check-line",
     desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },
 

@@ -3,7 +3,7 @@
 .watsap a:link,
 .watsap a:visited {
     cursor: pointer;
-    color: #444;
+    color: #fff;
     text-decoration: none;
     transition: all .4s ease-in-out
 } 

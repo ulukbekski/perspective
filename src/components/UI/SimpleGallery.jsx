@@ -1,6 +1,7 @@
 import React from 'react';
 import PhotoSwipeLightbox from 'photoswipe/lightbox';
 import 'photoswipe/style.css';
+import '../../styles/simple-gallery.css'
 
 export default function SimpleGallery(props) {
   React.useEffect(() => {
@@ -28,7 +29,7 @@ export default function SimpleGallery(props) {
           target="_blank"
           rel="noreferrer"
         > 
-          <img src={image.thumbnailURL} alt="" />
+          <img className='gallery-item' src={image.thumbnailURL} alt="" />
         </a>
       ))}
     </div>

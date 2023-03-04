@@ -35,9 +35,7 @@ const BlogItem = ({ item }) => {
             {title}
           </Link>
           <p className="section__description mt-3">
-            {description.length > 100
-              ? description.substr(0, 100)
-              : description}
+            {description}
           </p>
 
           <Link to={`/countries/${title}`} className="read__more">

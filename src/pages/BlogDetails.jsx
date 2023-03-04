@@ -25,7 +25,7 @@ const BlogDetails = () => {
           <Row>
             <Col lg="8" md="8">
               <div className="blog__details">
-                <img src={blog.imgUrl} alt="" className="w-100" />
+                <img src={blog.imgUrl} alt="" className="w-100"  />
                 <h2 className="section__title mt-4">{blog.title}</h2>
 
                 <div className="blog__publisher d-flex align-items-center gap-4 mb-4">
@@ -33,7 +33,7 @@ const BlogDetails = () => {
                     <i className="ri-user-line"></i> {blog.author}
                   </span>
 
-                  <span className=" d-flex align-items-center gap-1 section__description">
+                  <span className=" d-flex align-items-center gap-1 section__description ">
                     <i className="ri-calendar-line"></i> {blog.date}
                   </span>
 
@@ -42,12 +42,12 @@ const BlogDetails = () => {
                   </span>
                 </div>
 
-                <p className="section__description">{blog.description}</p>
-                <video src=""></video>
+                <p className="section__description start" >{blog.description}</p>
+                {/* <video src=""></video> */}
                 <h6 className="ps-5 fw-normal">
-                  <blockquote className="fs-4">{blog.quote}</blockquote>
+                  <blockquote className="fs-4">{blog.descriptionsList.map((obj)=> <li className="star">{obj}</li>)}</blockquote>
                 </h6>
-                <p className="section__description">{blog.description}</p>
+                <p className="section__description">{blog.conclusion}</p>
               </div>
 
               {/* <div className="comment__list mt-5">
@@ -100,14 +100,14 @@ const BlogDetails = () => {
 
             <Col lg="4" md="4">
               <div className="recent__post mb-4">
-                <h5 className=" fw-bold">Последние посты</h5>
+                <h5 className=" fw-bold">Другие страны</h5>
               </div>
               {blogData.map((item) => (
                 <div className="recent__blog-post mb-4" key={item.id}>
                   <div className="recent__blog-item d-flex gap-3">
                     <img src={item.imgUrl} alt="" className="w-25 rounded-2" />
                     <h6>
-                      <Link to={`/countries/${item.title}`}>{blog.title}</Link>
+                      <Link to={`/countries/${item.title}`} className="start">{item.title}</Link>
                     </h6>
                   </div>
                 </div>

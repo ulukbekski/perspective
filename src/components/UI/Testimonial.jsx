@@ -10,31 +10,23 @@ import ava04 from "../../assets/all-images/ava-4.jpg";
 
 const Testimonial = () => {
   const settings = {
-    dots: true,
     infinite: true,
-    autoplay: true,
+    // autoplay: true,
     speed: 1000,
-    swipeToSlide: true,
+    swipeToSlide: true, 
     autoplaySpeed: 2000,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
+      }
     ],
   };
 
@@ -45,7 +37,7 @@ const Testimonial = () => {
         The amount of the deposit depends on the class and model of the car (the exact amount is indicated in the catalogue). The deposit is paid at the conclusion of the car rental agreement and is returned after it is handed over to the employees of the car dealership in full, except for insured events.
         </p>
 
-        <div className="mt-3 d-flex align-items-center gap-4">
+        <div className="mt-3 d-flex align-items-end justify-content-center gap-4">
           <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
@@ -60,12 +52,12 @@ const Testimonial = () => {
         Rent is paid by the day, starting from the receipt of the car by the tenant. If the car is returned earlier than the period set during the preliminary booking, a recalculation is made with the subsequent return of the corresponding part of the payment.
         </p>
 
-        <div className="mt-3 d-flex align-items-center gap-4">
+        <div className="mt-3 d-flex align-items-end justify-content-center gap-4">
           <img src={ava02} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
             <h6 className="mb-0 mt-3">Isabel Lopez</h6>
-            <p className="section__description">Customer</p>
+            <p className="section__description ">Customer</p>
           </div>
         </div>
       </div>
@@ -75,7 +67,7 @@ const Testimonial = () => {
         Rent is paid by the day, starting from the receipt of the car by the tenant. If the car is returned earlier than the period set during the preliminary booking, a recalculation is made with the subsequent return of the corresponding part of the payment.
         </p>
 
-        <div className="mt-3 d-flex align-items-center gap-4">
+        <div className="mt-3 d-flex align-items-end justify-content-center gap-4">
           <img src={ava03} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
@@ -90,7 +82,7 @@ const Testimonial = () => {
         You can rent a car on the spot, but due to the increased demand during the high season, we recommend booking the desired model in advance. This is especially true for economy class cars.
         </p>
 
-        <div className="mt-3 d-flex align-items-center gap-4">
+        <div className="mt-3 d-flex align-items-end justify-content-center gap-4">
           <img src={ava04} alt="" className="w-25 h-25 rounded-2" />
 
           <div>

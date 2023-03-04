@@ -2,23 +2,14 @@ import React from "react";
 import "../../styles/our-member.css";
 import { Col } from "reactstrap";
 import { Link } from "react-router-dom";
-import ava01 from "../../assets/all-images/ava-1.jpg";
+import Edil from "../../assets/all-images/Edil.jpg";
 import ava02 from "../../assets/all-images/ava-2.jpg";
 import ava03 from "../../assets/all-images/ava-3.jpg";
 
 const OUR__MEMBERS = [
   {
-    name: "Jhon Doe",
-    experience: "5 years of experience",
-    fbUrl: "#",
-    instUrl: "#",
-    twitUrl: "#",
-    linkedinUrl: "#",
-    imgUrl: ava01,
-  },
-  {
-    name: "David Lisa",
-    experience: "5 years of experience",
+    name: "Имран ",
+    experience: "5 лет опыта",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
@@ -26,8 +17,17 @@ const OUR__MEMBERS = [
     imgUrl: ava02,
   },
   {
-    name: "Hilton King",
-    experience: "5 years of experience",
+    name: "Эдил Аптандилов",
+    experience: "2 года опыта",
+    fbUrl: "#",
+    instUrl: "#",
+    twitUrl: "#",
+    linkedinUrl: "#",
+    imgUrl: Edil,
+  },
+  {
+    name: "Cагын Камилов",
+    experience: "1 год опыта",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
@@ -35,13 +35,13 @@ const OUR__MEMBERS = [
     imgUrl: ava03,
   },
   {
-    name: "Jhon Doe",
-    experience: "5 years of experience",
+    name: "Нурсултан ",
+    experience: "10 лет опыта",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
     linkedinUrl: "#",
-    imgUrl: ava01,
+    imgUrl: ava02,
   },
 ];
 

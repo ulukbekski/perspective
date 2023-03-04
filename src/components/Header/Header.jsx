@@ -20,6 +20,10 @@ const navLinks = [
     path: "/contact",
     display: "Связаться",
   },
+  {
+    path: "/gallery",
+    display: "Галерея",
+  },
 ];
 
 const Header = () => {
