@@ -2,7 +2,7 @@ import React from "react";
 
 import Helmet from "../components/Helmet/Helmet";
 import AboutSection from "../components/UI/AboutSection";
-
+import { Container, Row, Col } from "reactstrap";
 import OurMembers from "../components/UI/OurMembers";
 import "../styles/about.css";
 
