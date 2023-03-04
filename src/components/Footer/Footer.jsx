@@ -3,7 +3,7 @@ import inst from '../../assets/all-images/free-icon-instagram-4923005.png'
 import what from '../../assets/all-images/whatsapp.png'
 import mail from '../../assets/all-images/mail.png'
 import face from '../../assets/all-images/facebook.png'
-import logos from '../../assets/all-images/logo.png'
+import logos from '../../assets/all-images/p__logo-orange.png'
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../../styles/footer.css";

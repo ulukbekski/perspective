@@ -8,7 +8,7 @@ import ava03 from "../../assets/all-images/ava-3.jpg";
 
 const OUR__MEMBERS = [
   {
-    name: "Имран ",
+    name: "Имран Токтосунов",
     experience: "5 лет опыта",
     fbUrl: "#",
     instUrl: "#",
@@ -35,7 +35,7 @@ const OUR__MEMBERS = [
     imgUrl: ava03,
   },
   {
-    name: "Нурсултан ",
+    name: "Нурсултан Кубанов",
     experience: "10 лет опыта",
     fbUrl: "#",
     instUrl: "#",

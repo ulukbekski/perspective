@@ -1,5 +1,5 @@
 .logos{
-  width: 130px;
+  width: 100px;
   border-right: #efde1c solid 1px;
   padding-right: 14px;
   transition: 1s;
@@ -9,7 +9,7 @@
 }
 
 .header__parent{
-  background-color: #252525;
+  background-color: #111;
 }
 
 .header__btn {
@@ -22,7 +22,7 @@
 }
 .header__btn i{
   animation: anim .75s ease-in infinite;
-  color: greenyellow;
+  color: #f79910;
 }
 @keyframes anim{
   0%{
@@ -59,7 +59,7 @@
 }
 
 .header__btn a:hover {
-  color: yellowgreen;
+  color: #f79910;
   background-color: #ffffff24;
 }
 
@@ -67,7 +67,7 @@
 
 .main__navbar {
   padding: 10px 0px;
-  background: #332e2e7a;
+  background: #001;
  
 
 }
@@ -99,15 +99,10 @@
   white-space: nowrap;
   position: relative;
 }
-.nav__item::after{
-  content: "\2605";
-  position: absolute;
-  right: -5px;
-  
-}
+
 
 .nav__item:hover {
-  color: rgb(76, 173, 243);
+  color: #f79910;
 
 }
 
@@ -137,7 +132,7 @@
 }
 
 .nav__active {
-  color: blue;
+  color: #f79910;
 }
 
 
@@ -150,10 +145,10 @@
     border: none;
   }
   .logos{
+    width: 90px;
     border-right: none;
     border-bottom: #efde1c 1px solid;
     padding-bottom: 20px;
-    width: 155px;
   }
  
   .header__top,
@@ -179,7 +174,7 @@
   .menu {
     width: 250px;
     height: 100%;
-    background: #252525;
+    background: #001;
     display: flex;
     align-items: center;
     flex-direction: column;

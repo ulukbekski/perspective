@@ -11,7 +11,7 @@ import ava04 from "../../assets/all-images/ava-4.jpg";
 const Testimonial = () => {
   const settings = {
     infinite: true,
-    // autoplay: true,
+    autoplay: true,
     speed: 1000,
     swipeToSlide: true, 
     autoplaySpeed: 2000,
