@@ -29,7 +29,7 @@ const socialLinks = [
 const Contact = () => {
   return (
     <Helmet title="Контакты">
-      <CommonSection title="Контакты" />
+ 
      
       <section>
         <Container>
@@ -53,7 +53,7 @@ const Contact = () => {
               </Form>
             </Col>
 
-            <Col lg="5" md="5">
+            {/* <Col lg="5" md="5">
               <div className="contact__info">
                 <h6 className="fw-bold">Контактные данные</h6>
                 <p className="section__description mb-0">
@@ -83,7 +83,7 @@ const Contact = () => {
                   ))}
                 </div>
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </section>

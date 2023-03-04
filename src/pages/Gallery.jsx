@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 // import { Container, Row, Col, Form, FormGroup, Input } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
@@ -27,11 +27,15 @@ const socialLinks = [
 ];
 
 const Gallery = () => {
+  const navigate = useNavigate()
   return (
     <Helmet title="Галерея">
-      <CommonSection title="Галерея" />
      
+      <button onClick={() => navigate('USA')}>DASDF</button> 
+      <button>ASDF</button>
+      <button>ASDF</button>
       <section>
+
         <SimpleGallery galleryID="USA-gallery" images={images}/>
       </section>
     </Helmet>
