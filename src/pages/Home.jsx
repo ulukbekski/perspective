@@ -17,6 +17,7 @@ const Home = () => {
     <Helmet title="Главная">
       <section className="p-0 hero__slider-section">
         <HeroSlider />
+
         <div className="consalting">
           <input placeholder="ФИО" className="for_registr" type="text" />
           <input placeholder="Телефон" className="for_registr" type="text" />

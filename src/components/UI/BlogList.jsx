@@ -2,18 +2,18 @@ import React from "react";
 import { Col } from "reactstrap";
 import "../../styles/blog-item.css";
 import { Link } from "react-router-dom";
-// import blogData from "../../assets/data/blogData";
-
-
-
+import blogData from "../../assets/data/blogData";
 
 const BlogList = () => {
-  const [blogData , setBlogData] = React.useState([])
-  React.useEffect(()=>{
-  fetch('https://63dce887df83d549ce9626c7.mockapi.io/Countries')
-  .then((response)=>response.json())
-  .then((json) => {setBlogData(json); console.log(json)})
-  },[])
+  // const [blogData, setBlogData] = React.useState([]);
+  // React.useEffect(() => {
+  //   fetch("https://63dce887df83d549ce9626c7.mockapi.io/Countries")
+  //     .then((response) => response.json())
+  //     .then((json) => {
+  //       setBlogData(json);
+  //       console.log(json);
+  //     });
+  // }, []);
   return (
     <>
       {blogData.map((item) => (
