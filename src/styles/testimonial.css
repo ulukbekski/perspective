@@ -1,20 +1,24 @@
-.testimonial{
-  background-color: white ;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(189, 189, 189, 0.8));
+.testimonial {
+  background-color: white;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 1),
+    rgba(189, 189, 189, 0.8)
+  );
   border-radius: 15px;
-  display: flex;
- 
-  
+  /* display: flex; */
+  /* justify-content: space-around !important; */
+  /* width: 100%; */
 }
-.slick-slide{
-  justify-content: center;
+.slick-slide {
+  /* justify-content: space-around; */
 }
-.slick-slide img{
+.slick-slide img {
   height: 150px !important;
   width: 150px !important;
 }
-.slick-dots button::before{
-  opacity: .75;
+.slick-dots button::before {
+  opacity: 0.75;
   font-size: 10px !important;
   color: white !important;
 }

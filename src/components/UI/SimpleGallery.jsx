@@ -1,14 +1,14 @@
-import React from 'react';
-import PhotoSwipeLightbox from 'photoswipe/lightbox';
-import 'photoswipe/style.css';
-import '../../styles/simple-gallery.css'
+import React from "react";
+import PhotoSwipeLightbox from "photoswipe/lightbox";
+import "photoswipe/style.css";
+import "../../styles/simple-gallery.css";
 
 export default function SimpleGallery(props) {
   React.useEffect(() => {
     let lightbox = new PhotoSwipeLightbox({
-      gallery: '#' + props.galleryID,
-      children: 'a',
-      pswpModule: () => import('photoswipe'),
+      gallery: "#" + props.galleryID,
+      children: "a",
+      pswpModule: () => import("photoswipe"),
     });
     lightbox.init();
 
@@ -25,11 +25,11 @@ export default function SimpleGallery(props) {
           href={image.largeURL}
           data-pswp-width={image.width}
           data-pswp-height={image.height}
-          key={props.galleryID + '-' + index}
+          key={props.galleryID + "-" + index}
           target="_blank"
           rel="noreferrer"
-        > 
-          <img className='gallery-item' src={image.largeURL} alt="" />
+        >
+          <img className="gallery-item" src={image.largeURL} alt="" />
         </a>
       ))}
     </div>
