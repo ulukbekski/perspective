@@ -16,18 +16,18 @@ const BlogList = () => {
   // },[])
   return (
     <>
-      {blogData.map((item) => (
-        <BlogItem item={item} key={item.id} />
-      ))}
+    <div className="center">
+      {blogData.map((item) => <BlogItem item={item} key={item.id} />)}
+      </div>
     </>
-  );
+  )
 };
 
 const BlogItem = ({ item }) => {
   const { imgUrl, title, author, date, description, time } = item;
 
   return (
-    <Col lg="4" md="6" sm="6" className="mb-5">
+    <Col lg="4" md="6" sm="6"  className="mb-5">
       <div className="blog__item">
         <img src={imgUrl} alt="" className="w-100" />
         <div className="blog__info p-3">

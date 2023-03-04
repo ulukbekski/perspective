@@ -16,7 +16,6 @@ const OUR__MEMBERS = [
     linkedinUrl: "#",
     imgUrl: ava01,
   },
-
   {
     name: "David Lisa",
     experience: "5 years of experience",
@@ -26,7 +25,6 @@ const OUR__MEMBERS = [
     linkedinUrl: "#",
     imgUrl: ava02,
   },
-
   {
     name: "Hilton King",
     experience: "5 years of experience",
@@ -36,7 +34,6 @@ const OUR__MEMBERS = [
     linkedinUrl: "#",
     imgUrl: ava03,
   },
-
   {
     name: "Jhon Doe",
     experience: "5 years of experience",

@@ -1,5 +1,16 @@
+.center{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+}
 .blog__item {
   border: 1px solid #7c8a972e;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: aliceblue;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.322);
 }
 .blog__item img{
   height: 200px;
@@ -68,4 +79,8 @@
   .read__more {
     font-size: 0.7rem;
   }
+}
+center a{
+  text-decoration: none ;
+  color: unset ;
 }

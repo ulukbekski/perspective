@@ -43,6 +43,13 @@
     animation-duration: 1s;
     transform: scale(1)
 }
+@media (max-width:900px) {
+    #whatsapp-chat{
+
+    width: 200px;
+    font-size: 16px;
+}
+}
 
 a.blantershow-chat {
     background: linear-gradient(to right top, #6f96f3, #164ed2);

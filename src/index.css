@@ -32,8 +32,8 @@ h6 {
 }
 
 a {
-  text-decoration: none;
-  color: unset;
+  text-decoration: none ;
+  color: unset ;
 }
 
 a:hover {
@@ -46,7 +46,7 @@ ul {
 }
 
 .section__title {
-  color: #000d6b;
+  color: #ffffff;
   font-weight: 600;
   font-size: 2rem;
 }
@@ -95,3 +95,15 @@ section {
     font-size: 1.1rem;
   }
 }
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+body  {
+  
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+ 

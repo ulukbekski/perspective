@@ -4,7 +4,7 @@ import CommonSection from "../components/UI/CommonSection";
 import Helmet from "../components/Helmet/Helmet";
 import AboutSection from "../components/UI/AboutSection";
 import { Container, Row, Col } from "reactstrap";
-import iimg from "../assets/all-images/abroad.jpg";
+import iimg from "../assets/all-images/USAImages/IMG_6300.jpeg";
 import OurMembers from "../components/UI/OurMembers";
 import "../styles/about.css";
 

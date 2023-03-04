@@ -6,9 +6,11 @@ import servicesData from "../../assets/data/serviceData";
 const ServicesList = () => {
   return (
     <>
+  
       {servicesData.map((item) => (
         <ServiceItem item={item} key={item.id} />
       ))}
+  
     </>
   );
 };

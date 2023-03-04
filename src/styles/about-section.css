@@ -1,4 +1,15 @@
-
+.about__section-content {
+  border-radius: 15px;
+  width: 90%;
+  padding: 20px;
+  height: 100%;
+  background-color: white ;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(189, 189, 189, 0.723))
+  
+}
+.section__title{
+  text-align: center;
+}
 .about__section-item {
   column-gap: 3rem;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "../../styles/about-section.css";
-import img from '../../assets/all-images/abroad.jpg'
+import img from '../../assets/all-images/USAImages/IMG_6360.JPG'
 
 const AboutSection = ({ aboutClass }) => {
   return (
@@ -10,14 +10,14 @@ const AboutSection = ({ aboutClass }) => {
       style={
         aboutClass === "aboutPage"
           ? { marginTop: "0px" }
-          : { marginTop: "100px" }
+          : { marginTop: "90px" }
       }
     >
       <Container>
         <Row>
           <Col lg="6" md="6">
             <div className="about__section-content">
-              <h4 className="section__subtitle">О нас</h4>
+              {/* <h4 className="section__subtitle">О нас</h4> */}
               <h2 className="section__title">Добро пожаловать в Perspective</h2>
               <p className="section__description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -33,7 +33,7 @@ const AboutSection = ({ aboutClass }) => {
 
           <Col lg="6" md="6">
             <div className="about__img">
-              <img id="fff" src={img} alt="" className="w-100" />
+              <img id="fff" src={img} alt="" className="" />
             </div>
           </Col>
         </Row>

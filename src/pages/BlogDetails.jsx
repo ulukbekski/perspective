@@ -43,6 +43,7 @@ const BlogDetails = () => {
                 </div>
 
                 <p className="section__description">{blog.description}</p>
+                <video src=""></video>
                 <h6 className="ps-5 fw-normal">
                   <blockquote className="fs-4">{blog.quote}</blockquote>
                 </h6>
