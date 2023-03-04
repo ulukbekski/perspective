@@ -7,7 +7,6 @@ import BlogList from "../components/UI/BlogList";
 const Blog = () => {
   return (
     <Helmet title="Страны с которыми мы работаем">
-      <CommonSection title="Страны с которыми мы работаем" />
       <section>
         <Container>
           <Row>

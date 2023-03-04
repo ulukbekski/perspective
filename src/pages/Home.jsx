@@ -11,6 +11,7 @@ import ServicesList from "../components/UI/ServicesList";
 import Testimonial from "../components/UI/Testimonial";
 import BlogList from "../components/UI/BlogList";
 import "../styles/hero-slider.css";
+import AboutSection2 from "../components/UI/AboutSection2";
 
 const Home = () => {
   const [name, setName] = React.useState("")
@@ -45,6 +46,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+      <AboutSection2/>
 
       <section>
         <Container>

@@ -2,19 +2,13 @@ import React from "react";
 import { Container } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
-import logo from '../../assets/all-images/logo.png'
+import logo from '../../assets/all-images/p__logo-oranges.png'
 const navLinks = [
-  {
-    path: "/home",
-    display: "Главная",
-  },
-  {
-    path: "/about",
-    display: "О нас",
-  },
+
+  
   {
     path: "/countries",
-    display: "Страны",
+    display: "Программы",
   },
   {
     path: "/contact",
@@ -23,6 +17,10 @@ const navLinks = [
   {
     path: "/gallery",
     display: "Галерея",
+  },
+  {
+    path: "/about",
+    display: "О нас",
   },
 ];
 

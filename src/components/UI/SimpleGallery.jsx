@@ -29,7 +29,7 @@ export default function SimpleGallery(props) {
           target="_blank"
           rel="noreferrer"
         > 
-          <img className='gallery-item' src={image.thumbnailURL} alt="" />
+          <img className='gallery-item' src={image.largeURL} alt="" />
         </a>
       ))}
     </div>
