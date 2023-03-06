@@ -13,7 +13,7 @@ const Testimonial = () => {
     infinite: true,
     autoplay: true,
     speed: 1000,
-    swipeToSlide: true, 
+    swipeToSlide: true,
     autoplaySpeed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -26,17 +26,13 @@ const Testimonial = () => {
           infinite: true,
           dots: true,
         },
-      }
+      },
     ],
   };
 
   return (
     <Slider {...settings}>
       <div className="testimonial py-4 px-3">
-        <p className="section__description">
-        The amount of the deposit depends on the class and model of the car (the exact amount is indicated in the catalogue). The deposit is paid at the conclusion of the car rental agreement and is returned after it is handed over to the employees of the car dealership in full, except for insured events.
-        </p>
-
         <div className="mt-3 d-flex align-items-end justify-content-center gap-4">
           <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
@@ -45,11 +41,21 @@ const Testimonial = () => {
             <p className="section__description">Customer</p>
           </div>
         </div>
+        <p className="section__description">
+          The amount of the deposit depends on the class and model of the car
+          (the exact amount is indicated in the catalogue). The deposit is paid
+          at the conclusion of the car rental agreement and is returned after it
+          is handed over to the employees of the car dealership in full, except
+          for insured events.
+        </p>
       </div>
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-        Rent is paid by the day, starting from the receipt of the car by the tenant. If the car is returned earlier than the period set during the preliminary booking, a recalculation is made with the subsequent return of the corresponding part of the payment.
+          Rent is paid by the day, starting from the receipt of the car by the
+          tenant. If the car is returned earlier than the period set during the
+          preliminary booking, a recalculation is made with the subsequent
+          return of the corresponding part of the payment.
         </p>
 
         <div className="mt-3 d-flex align-items-end justify-content-center gap-4">
@@ -64,7 +70,10 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-        Rent is paid by the day, starting from the receipt of the car by the tenant. If the car is returned earlier than the period set during the preliminary booking, a recalculation is made with the subsequent return of the corresponding part of the payment.
+          Rent is paid by the day, starting from the receipt of the car by the
+          tenant. If the car is returned earlier than the period set during the
+          preliminary booking, a recalculation is made with the subsequent
+          return of the corresponding part of the payment.
         </p>
 
         <div className="mt-3 d-flex align-items-end justify-content-center gap-4">
@@ -79,7 +88,9 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-        You can rent a car on the spot, but due to the increased demand during the high season, we recommend booking the desired model in advance. This is especially true for economy class cars.
+          You can rent a car on the spot, but due to the increased demand during
+          the high season, we recommend booking the desired model in advance.
+          This is especially true for economy class cars.
         </p>
 
         <div className="mt-3 d-flex align-items-end justify-content-center gap-4">

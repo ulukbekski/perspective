@@ -63,12 +63,6 @@ const HeroSlider = () => {
             </button> */}
           </div>
         </Container>
-        {/* <div className="consalting">
-          <input placeholder="ФИО" className="for_registr" type="type" />
-          <input placeholder="Телефон" className="for_registr" type="text" />
-          <input placeholder="Email" className="for_registr" type="text" />
-          <button className="button_for_registr">Консультация</button>
-        </div> */}
       </div>
     </Slider>
   );

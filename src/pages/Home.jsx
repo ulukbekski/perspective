@@ -14,22 +14,40 @@ import "../styles/hero-slider.css";
 import AboutSection2 from "../components/UI/AboutSection2";
 
 const Home = () => {
-  const [name, setName] = React.useState("")
-  const [city, setCity] = React.useState("")
-  const [tel, setTel] = React.useState("")
-  console.log(name)
+  const [name, setName] = React.useState("");
+  const [city, setCity] = React.useState("");
+  const [tel, setTel] = React.useState("");
+  console.log(name);
   return (
     <Helmet title="Главная">
       <section className="p-0 hero__slider-section">
         <HeroSlider />
-        <form className="consalting" >
-          <input placeholder="ФИО" onChange={()=>setName((event)=> event.target.value)} className="for_registr" type="text" name="name" />
-          <input placeholder="Телефон" className="for_registr" type="tel"  id="phone" name="phone" pattern="996[\d]{9}" />
-          <input placeholder="Город" className="for_registr" type="text" name="city" />
-          <button className="button_for_registr" type="submit">Консультация</button>
+        <form className="consalting">
+          <input
+            placeholder="ФИО"
+            onChange={() => setName((event) => event.target.value)}
+            className="for_registr"
+            type="text"
+            name="name"
+          />
+          <input
+            placeholder="Телефон"
+            className="for_registr"
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="996[\d]{9}"
+          />
+          <input
+            placeholder="Город"
+            className="for_registr"
+            type="text"
+            name="city"
+          />
+          <button className="button_for_registr" type="submit">
+            Консультация
+          </button>
         </form>
-
-        
       </section>
 
       <AboutSection />
